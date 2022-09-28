@@ -1,12 +1,13 @@
 import './home.css';
+import './menu.jsx';
+
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineSearch } from "react-icons/ai";
-import { TbShoppingCart } from "react-icons/tb";
-import { ImUser } from "react-icons/im";
+
 import logo from "./images/Sarvam_logo.png"
 import youtube from "./images/youtube.png"
 import building from "./images/building.png"
-import brand from "./images/brand.png"
+
 import image1 from "./images/firstimage.jpg"
 import award from "./images/award.png"
 import award2 from "./images/award2.png"
@@ -20,33 +21,76 @@ import whatsapp from "./images/whatsapp.png"
 import twitter from "./images/twitter.png"
 import safety from "./images/safety.png"
 import safety1 from "./images/safety1.jpg"
+import { AiOutlineDown } from "react-icons/ai";
+import { AiOutlinePhone } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineFieldTime } from "react-icons/ai";
+import { AiFillRightCircle } from "react-icons/ai";
+import DrawerExample from './menu.jsx';
+
 function Home(){
     return(
         <div>
-        <div className="fulldiv">
-            <div className="child1">
-                <div className="menu-icon"><AiOutlineMenu/></div>
-                  <div className="logo1">
+            <div className='address'>
+ <div className="logo1">
                     <img src={logo} alt="" srcset="" />
                   </div>
-                    <div className="search">
-                        <div className='search1'></div>
-                        <div className='search2'><AiOutlineSearch/></div>
+
+                  <div className='call'>
+                    <div className='calls'>
+                        <div className='call-icon'><AiOutlinePhone/></div>
+                         <div className='call-text'>
+                            <div className='call-text1'>Call Us:</div>
+                             <div className='call-text2'>+7465736873</div>
+                         </div>
                     </div>
+                    <div className='email'>
+                          <div className='email-icon'><AiOutlineMail/></div>
+                         <div className='email-text'>
+                            <div className='email-text1'>Email Us:</div>
+                             <div className='email-text2'>finlo34@.com</div>
+                         </div>
+                    </div>
+                    <div className='opening'>
+                         <div className='open-icon'><AiOutlineFieldTime/></div>
+                         <div className='open-text'>
+                            <div className='open-text1'>Opening Hours:</div>
+                             <div className='open-text2'>Mon-fri:8am-7am</div>
+                         </div>
+                    </div>
+                    <div className='quote'>
+                        <div className='quote1'>
+                            <div className='quote-arrow'><AiFillRightCircle/></div>
+                            <div className='quote-msg'>Get a Quote</div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        <div className="fulldiv">
+            <div className="child1">
+                <div className="menu-icon">
+                    <DrawerExample><AiOutlineMenu/></DrawerExample>
+                    
+               
+                </div>
             </div>
             <div className="child2">
-               <div className="aboutus">ABOUT US</div>
-                  <div className="contactus">CONTACT US</div>
-                    <div className="careers">CAREERS</div>
+               <div className="aboutus">ABOUT US <AiOutlineDown className='down'/></div>
+                  <div className="contactus">CONTACT US  <AiOutlineDown/></div>
+                    <div className="careers">CAREERS  <AiOutlineDown/></div>
             </div>
             <div className="child3">
-                  <div className="brand">
+                  {/* <div className="brand">
                      <img src={brand} alt="" srcset="" />
                   </div>
                   <div className="cart"><TbShoppingCart/></div>
                     <div className="sign" >
                         <div className="sign1"><ImUser/></div>
                         <div className="sign2">SIGN IN</div>
+                    </div> */}
+                     <div className="search">
+                         <div className="search1">SEARCH....</div>
+                        <div className='search2'><AiOutlineSearch/></div>
                     </div>
             </div>
         </div>
@@ -54,8 +98,16 @@ function Home(){
             <div className='first-image'>
                  <img src={image1} alt="" srcset="" />
             </div>
-            <p className='para1'>The word 'SARVAM' a Sanskrit word that stands for "Everything" or "Complete", represents to the totality of our strengths as a company - Infrastructure, Man power, Rich Experience, Extensive Product Range, Quality and undying passion to remain ahead of the times. All backed by our capable and experienced sales, Marketing, Back end Supporting, Service and Logistics team.</p>
-         <p className='para1'>SARVAM SAFETY Equipment (P) ltd is a Channel partner for reputed National and International Life Saving Equipment Manufacturers, catering the safety needs of various Industrial segments such as Automobiles, Chemical, Engineering, Pharmaceuticals, Refineries, Construction, power sectors , Fire service, Government sectors, IT , Hotels and various Institutions.</p>
+            <div className='box-para1'>
+            <p className='para1'>The word 'SARVAM' a Sanskrit word that stands for "Everything" or "Complete", 
+            represents to the totality of our strengths as a company - Infrastructure, Man power, Rich Experience, 
+            Extensive Product Range, Quality and undying passion to remain ahead of the times. All backed by our 
+            capable and experienced sales, Marketing, Back end Supporting, Service and Logistics team.</p>
+         <p className='para2'>SARVAM SAFETY Equipment (P) ltd is a Channel partner for reputed National and 
+         International Life Saving Equipment Manufacturers, catering the safety needs of various Industrial 
+         segments such as Automobiles, Chemical, Engineering, Pharmaceuticals, Refineries, Construction, power 
+         sectors , Fire service, Government sectors, IT , Hotels and various Institutions.</p>
+         </div>
         <div  style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
             <div className='one-step'   style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
                 <p className='one-stop'>ONE-STOP SOLUTION</p>
@@ -239,3 +291,4 @@ function Home(){
     )
 }
 export default Home
+

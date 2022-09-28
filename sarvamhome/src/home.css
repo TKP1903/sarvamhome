@@ -1,19 +1,191 @@
+.address{
+   
+    width: auto;
+    height: 80px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   display: flex;
+}
+.call{
+    
+    width: 1000px;
+    height: 80px;
+    display: flex;
+}
+
+.calls{
+ 
+    height: 100%;
+    width: 20%;
+    display: flex;
+}
+.call-icon{
+   
+    width: 30%;
+    height: 30px;
+    align-self: center;
+    color: rgb(150,193,21)
+}
+.call-text{
+   
+    width: 75%;
+    margin-left: 5%;
+}
+.call-text1{
+    
+    width: 85%;
+    margin-left: 5%;
+    color: rgba(0, 0, 0, 0.737);
+    height: 30%;
+    font-size: 13px;
+    margin-top: 10px;
+
+}
+.call-text2{
+   
+    width: 85%;
+    margin-left: 5%;
+    color: rgb(0, 0, 0);
+    height: 50%;
+    font-size: 15px;
+    margin-top: 0px;
+
+}
+
+.email{
+    
+    height: 100%;
+    width: 25%;
+    display: flex;
+    margin-left: 100px;
+}
+.email-icon{
+   
+    width: 30%;
+    height: 30px;
+    align-self: center;
+ color: rgb(150,193,21)
+}
+.email-text{
+   
+    width: 75%;
+    margin-left: 5%;
+}
+.email-text1{
+    
+    width: 85%;
+    margin-left: 5%;
+    color: rgba(0, 0, 0, 0.737);
+    height: 30%;
+    font-size: 13px;
+    margin-top: 10px;
+
+}
+.email-text2{
+   
+    width: 85%;
+    margin-left: 5%;
+    color: rgb(0, 0, 0);
+    height: 50%;
+    font-size: 15px;
+    margin-top: 0px;
+
+}
+.opening{
+    
+    height: 100%;
+    width: 35%;
+    display: flex;
+    margin-left: 100px;
+}
+.open-icon{
+   
+    width: 30%;
+    height: 30px;
+    align-self: center;
+  color: rgb(150,193,21)
+}
+.open-text{
+   
+    width: 75%;
+    margin-left: 5%;
+}
+.open-text1{
+    
+    width: 85%;
+    color: rgba(0, 0, 0, 0.737);
+    height: 30%;
+    font-size: 13px;
+    margin-top: 10px;
+
+}
+.open-text2{
+   
+    width: 85%;
+    margin-left: 5%;
+    color: rgb(0, 0, 0);
+    height: 50%;
+    font-size: 15px;
+    margin-top: 0px;
+
+}
+.quote{
+     
+    height: 100%;
+    width: 32%;
+    margin-left: 100px;
+
+}
+.quote1{
+   
+    height: 70%;
+    width: 80%;
+    margin: 5%;
+    background-color: rgb(150,193,21);
+    border-radius: 10px;
+    display: flex;
+}
+.quote-arrow{
+
+    width: 30%;
+    height: 30px;
+    align-self: center;
+    color: white;
+     font-weight: 700;
+     font-family: Heebo, sans-serif;
+     font-size: 15px;
+     line-height: 40px;
+     font-style: normal;
+}
+.quote-msg{
+    
+   
+    width: 75%;
+color: white;
+     font-weight: 700;
+     font-family: Heebo, sans-serif;
+     font-size: 15px;
+     line-height: 60px;
+     font-style: normal;
+}
 .fulldiv{
     width: auto;
     height: 80px;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
    display: flex;
+   background-color: rgb(14,43,92);
+
 
 }
-.child1{
+/* .child1{
     width: 40%;
     height: 100%;
     display: flex;
-}
+} */
 .menu-icon{
     width: 20%;
     font-size: 40px;
     padding-top: 10px;
+    
 }
 .logo1{
 width: 30%;
@@ -24,51 +196,48 @@ padding-top: 2px;
      height: 100%;
     
 }
-.search{
 
-height: 50%;
-width: 90%;
-margin-top: 10px;
-display: flex;
-padding-top: 10px;
 
-}
-.search1{
-    width: 80%;
-    border:1px solid rgba(0, 0, 0, 0.386);
-}
-.search2{
-    width: 10%;
-    background-color: rgba(0, 128, 0, 0.703);
-    font-size: 25px;
-    color: rgba(240, 248, 255, 0.605);
-    padding-top: 5px;
-}
 .child2{
 width: 30%;
 display: flex;
+margin-left: 100px;
 }
 .aboutus{
     width:30% ;
-     margin-left: 5px;
-     padding-top: 23px;
-     color: gray;
-     font-weight: 600;
+     margin-left: 0px;
+     color: white;
+     font-weight: 700;
+     font-family: Heebo, sans-serif;
+     font-size: 15px;
+     line-height: 70px;
+     font-style: normal;
+}
+.down{
+    font-weight: bold;
+   padding-bottom: -30px;
+    
 }
 .contactus{
   
-    width:30% ;
+     width:30% ;
      margin-left: 5px;
-     padding-top: 23px;
-     color: gray;
-     font-weight: 600;
+     color: white;
+     font-weight: 700;
+     font-family: Heebo, sans-serif;
+     font-size: 15px;
+     line-height: 70px;
+     font-style: normal;
 }
 .careers{
-    width:30% ;
+  width:30% ;
      margin-left: 5px;
-     padding-top: 23px;
-     color: gray;
-     font-weight: 600;
+     color: white;
+     font-weight: 700;
+     font-family: Heebo, sans-serif;
+     font-size: 15px;
+     line-height: 70px;
+     font-style: normal;
 }
 .child3{
 width: 30%;
@@ -81,18 +250,65 @@ display: flex;
     font-size: 40px;
     margin-left: 45px;
     margin-top: 15px;
+    color: white;
+     font-weight: 700;
+     font-family: Heebo, sans-serif;
+     line-height: 50px;
+     font-style: normal;
+     
 }
 .sign{
     display: flex;
 }
 .sign1{
-     font-size: 30px;
+     font-size: 40px;
     margin-left: 45px;
-    margin-top: 20px; 
+    margin-top: 15px;
+    color: white;
+     font-weight: 700;
+     font-family: Heebo, sans-serif;
+     line-height: 50px;
+     font-style: normal;
 }
 .sign2{
-     margin-left: 10px;
-    margin-top: 25px;
+   
+
+      width:30% ;
+     margin-left: 5px;
+     color: white;
+     font-weight: 700;
+     font-family: Heebo, sans-serif;
+     font-size: 15px;
+     line-height: 70px;
+     font-style: normal;
+}
+.search{
+
+height: 50%;
+width: 200px;
+display: flex;
+
+}
+.search1{
+    width:30% ;
+     margin-bottom: 40px;
+     color: white;
+     font-weight: 700;
+     font-family: Heebo, sans-serif;
+     font-size: 15px;
+     line-height: 70px;
+     font-style: normal;
+     margin-left: 150px;
+}
+.search2{
+   color: white;
+     font-weight: bolder;
+     font-family: Heebo, sans-serif;
+     font-size: 25px;
+     line-height: 80px;
+     font-style: normal;
+     margin-left: 200px;
+     margin-bottom: 40px;
 }
 .full-page{
     width: 95%;
@@ -105,12 +321,44 @@ width: 100%;
 height: 900px;
 padding-top: 20px;
 }
-.para1{
-    font-weight: 500;
-    font-size: 20px;
+.box-para1{
+    width: auto;
+    height: 300px;
     margin-top: 70px;
     margin-left: 20px;
     margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    background-color: rgba(245, 244, 241, 0.616)
+}
+.para1{
+  
+    font-weight: 500;
+width: 40%;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding-top: 40px;
+        padding-left: 20px;
+     padding-right: 20px;
+     background-color: white;
+     border-radius: 10px;
+}
+.para2{
+   
+    font-weight: 500;
+width: 40%;
+    font-size: 18px;
+     padding-top: 40px;
+     padding-left: 10px;
+     padding-right: 10px;
+     background-color: white;
+    margin-left: 200px;
+    margin-right: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px;
+        
 }
 .one-step{
     width: 500px;
@@ -127,10 +375,14 @@ padding-top: 20px;
     text-align: center;
 }
 .vision{
-    width: 100%;
+    width: 80%;
     height: 500px;
-     background-color: rgb(149,193,43);
+    margin-left: 10%;
+   background-color: rgba(242, 240, 234, 0.813);
      margin-top: 40px;
+      box-shadow: rgb(116, 7, 226) 0px 3px 8px;
+      border-radius: 20px;
+      margin-bottom: 100px;
 }
 
 .sub-vision{
@@ -141,6 +393,7 @@ padding-top: 20px;
      background-color: rgb(149,193,43);
      margin-left: 25px;
      display: flex;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .yt-image{
     border: 2px solid white;
@@ -154,10 +407,11 @@ padding-top: 20px;
     width: 100%;
 }
 .text{
-    width: 50%;
+    width: 90%;
     height: 90%;
  margin-top: 15px;
  margin-left: 50px;
+ 
 }
 .text1{
     color: white;
@@ -168,7 +422,8 @@ padding-top: 20px;
     color: white;
     font-weight: 400;
     font-size: 20px;
-    padding-right: 600px;
+   
+    width: 10%;
 }
 .vision-text1{
     color: white;
@@ -181,7 +436,7 @@ padding-top: 20px;
     color: white;
     font-weight: 400;
     font-size: 20px;
-    padding-right: 600px;
+    padding-right: 620px;
     padding-top: 40px;
 }
 .vision-text3{
@@ -423,4 +678,28 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-size: 40px;
     margin-top: 0px;
     margin-bottom: 50px;
+}
+.menu-home{
+    width: 150px;
+   height: 100%;
+   padding: 30px;
+  
+     background-color: rgb(14,43,92);
+}
+.menu-text{
+     color: white;
+     font-weight: 700;
+     font-family: Heebo, sans-serif;
+     font-size: 15px;
+     line-height: 70px;
+     font-style: normal;
+}
+.close{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: red;
+}
+.aiout{
+    margin-right: 5px;
+    font-size: 20px;
 }
