@@ -1,13 +1,9 @@
 import './home.css';
 import './menu.jsx';
-
-import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineSearch } from "react-icons/ai";
-
 import logo from "./images/Sarvam_logo.png"
 import youtube from "./images/youtube.png"
 import building from "./images/building.png"
-
 import image1 from "./images/firstimage.jpg"
 import award from "./images/award.png"
 import award2 from "./images/award2.png"
@@ -26,7 +22,6 @@ import { AiOutlinePhone } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import { AiOutlineFieldTime } from "react-icons/ai";
 import { AiFillRightCircle } from "react-icons/ai";
-import DrawerExample from './menu.jsx';
 
 function Home(){
     return(
@@ -67,17 +62,21 @@ function Home(){
                   </div>
             </div>
         <div className="fulldiv">
-            <div className="child1">
+            {/* <div className="child1">
                 <div className="menu-icon">
                     <DrawerExample><AiOutlineMenu/></DrawerExample>
                     
                
                 </div>
-            </div>
+            </div> */}
             <div className="child2">
-               <div className="aboutus">ABOUT US <AiOutlineDown className='down'/></div>
-                  <div className="contactus">CONTACT US  <AiOutlineDown/></div>
-                    <div className="careers">CAREERS  <AiOutlineDown/></div>
+
+                <div className="aboutus">HOME <div><AiOutlineDown className='down'/></div></div>
+               <div className="aboutus">ABOUT US <div><AiOutlineDown className='down'/></div></div>
+               <div className="contactus">PRODUCTS <div><AiOutlineDown className='down'/></div></div>
+               <div className="contactus">BUSINESS<div><AiOutlineDown className='down'/></div></div>
+                  <div className="contactus">CONTACT US  <div><AiOutlineDown className='down'/></div></div>
+                    <div className="careers">CAREERS  <div><AiOutlineDown className='down'/></div></div>
             </div>
             <div className="child3">
                   {/* <div className="brand">
@@ -98,6 +97,8 @@ function Home(){
             <div className='first-image'>
                  <img src={image1} alt="" srcset="" />
             </div>
+            <div className='content'>
+                <div className='content-only'>
             <div className='box-para1'>
             <p className='para1'>The word 'SARVAM' a Sanskrit word that stands for "Everything" or "Complete", 
             represents to the totality of our strengths as a company - Infrastructure, Man power, Rich Experience, 
@@ -108,35 +109,53 @@ function Home(){
          segments such as Automobiles, Chemical, Engineering, Pharmaceuticals, Refineries, Construction, power 
          sectors , Fire service, Government sectors, IT , Hotels and various Institutions.</p>
          </div>
-        <div  style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+         </div>
+        {/* <div  style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
             <div className='one-step'   style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
                 <p className='one-stop'>ONE-STOP SOLUTION</p>
             </div>
 
-        </div>
-        <div className='vision'   style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+        </div> */}
+       
             <div className='sub-vision'>
                 <div  className='yt-image'>
                     <img src={youtube} alt="" srcset="" />
                 </div>
-                <div className='text'>
-                    <div className='text1'>VISION AND MISSION</div>
-                     <div className='vision-text'>VISION:</div>
-                <div className='vision-text1'>SARVAM SAFETY is your one stop solution provider for in lifeand industrial safety equipment by 
+                </div>
+                </div>
+                {/* <div className='text'>
+                   <div className='vision-content' >
+                    <div className='text1'>
+                        VISION AND MISION
+                        </div>
+                     <div className='vision-text'>
+                        VISION:
+                        </div>
+                <div className='vision-text1'>
+                    SARVAM SAFETY is your one stop solution provider for in lifeand industrial safety equipment by 
                     catering to various segments and
                 </div>
-                 <div className='vision-text2'>MISION:</div>
-                 <div className='vision-text3'>SARVAM SAFETY is your one stop solution provider for in lifeand industrial safety equipment by 
+                 <div className='vision-text2'>
+                    MISION:
+                    </div>
+                 <div className='vision-text3'>
+                    SARVAM SAFETY is your one stop solution provider for in lifeand industrial safety equipment by 
                     catering to various segments and
                 </div>
                 </div>
                
-            </div>
-        </div>
+               
+            
+        
+        
         <div className='wall'>
-            <div className='wall1'>WALL OF FAME</div>
-            <div className='wall2'>ALL ROADS THAT LEAD TO SUCCESS HAVE TO PASS THROUGH
-            HARDWORK BOULEVARD,AT SOME POINT OF TIME</div>
+            <div className='wall1'>
+                WALL OF FAME
+                </div>
+            <div className='wall2'>
+                ALL ROADS THAT LEAD TO SUCCESS HAVE TO PASS THROUGH
+            HARDWORK BOULEVARD,AT SOME POINT OF TIME
+            </div>
             <div className='frame'>
                 <div className='frame1'>
                     <img src={award2} alt="" srcset="" />
@@ -152,24 +171,55 @@ function Home(){
                 </div>
                 
             </div>
-             <div className='frame'>
-                <div className='frame1'>
-                    <img src={award2} alt="" srcset="" />
+ </div>
+
+        </div> */}
+
+        <div className='vision'>
+            <div className='sub-vision1'>
+                <div className='sub1-vision'>
+                    VISION AND MISION
                 </div>
-                <div className='frame2'>
-                    <img src={award3} alt="" srcset="" />
+                <div className='sub2-vision'>
+                     VISION:
                 </div>
-                <div className='frame3'>
-                    <img src={award} alt="" srcset="" />
+                <div className='sub3-vision'>
+                       SARVAM SAFETY is your one stop solution provider for in lifeand industrial safety equipment by 
+                    catering to various segments and
                 </div>
-                <div className='frame4'>
-                    <img src={award4} alt="" srcset="" />
+                <div className='sub2-vision'>
+                     MISION:
                 </div>
-                
+                <div className='sub3-vision'>
+                      SARVAM SAFETY is your one stop solution provider for in lifeand industrial safety equipment by 
+                    catering to various segments and
+                </div>
             </div>
-
-
+            <div className='sub-vision2'>
+                <div className='sub2-text1'>
+                    WALL OF FAME
+                </div>
+                <div className='sub2-text2'>
+                           ALL ROADS THAT LEAD TO SUCCESS HAVE TO PASS THROUGH
+            HARDWORK BOULEVARD,AT SOME POINT OF TIME
+                </div>
+                <div className='sub2-text3'>
+                    <div className='frame1'>
+ <img src={award2} alt="" srcset="" />
+                    </div>
+                    <div className='frame1'>
+  <img src={award3} alt="" srcset="" />
+                    </div>
+                    <div className='frame1'>
+ <img src={award} alt="" srcset="" />
+                    </div>
+                    <div className='frame1'>
+<img src={award4} alt="" srcset="" />
+                    </div>
+                </div>
+            </div>
         </div>
+        <div className='empty'></div>
         <div className='bg-img'>
              <div className='backgroundimg' style={{ backgroundImage:`url(${building})` }}>
 
