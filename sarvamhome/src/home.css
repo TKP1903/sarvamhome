@@ -1,54 +1,59 @@
 .address{
-   
-    width: auto;
+ 
+     width: auto;
     height: 80px;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
    display: flex;
 }
 .call{
-    
-    width: 1000px;
+   
+    width: 100%;
     height: 80px;
     display: flex;
+    margin-left: 200px;
 }
 
 .calls{
- 
+
     height: 100%;
     width: 20%;
     display: flex;
 }
 .call-icon{
    
-    width: 30%;
+   width: 30%;
     height: 30px;
     align-self: center;
-    color: rgb(150,193,21)
+  color: rgb(150,193,21);
+  margin-right: 10px;
+    
 }
 .call-text{
    
     width: 75%;
-    margin-left: 5%;
+   margin-left: 10px;
+    
 }
 .call-text1{
     
     width: 85%;
-    margin-left: 5%;
     color: rgba(0, 0, 0, 0.737);
     height: 30%;
     font-size: 13px;
     margin-top: 10px;
+    text-align: left;
+    margin-left: 3px;
 
 }
 .call-text2{
    
     width: 85%;
-    margin-left: 5%;
+ 
     color: rgb(0, 0, 0);
     height: 50%;
     font-size: 15px;
     margin-top: 0px;
-
+    text-align: left;
 }
 
 .email{
@@ -60,10 +65,10 @@
 }
 .email-icon{
    
-    width: 30%;
+   width: 30%;
     height: 30px;
     align-self: center;
- color: rgb(150,193,21)
+  color: rgb(150,193,21)
 }
 .email-text{
    
@@ -73,21 +78,23 @@
 .email-text1{
     
     width: 85%;
-    margin-left: 5%;
     color: rgba(0, 0, 0, 0.737);
     height: 30%;
     font-size: 13px;
     margin-top: 10px;
+      text-align: left;
+    
 
 }
 .email-text2{
    
     width: 85%;
-    margin-left: 5%;
+  
     color: rgb(0, 0, 0);
     height: 50%;
     font-size: 15px;
     margin-top: 0px;
+    text-align: left;
 
 }
 .opening{
@@ -111,21 +118,24 @@
 }
 .open-text1{
     
-    width: 85%;
+   width: 85%;
     color: rgba(0, 0, 0, 0.737);
     height: 30%;
     font-size: 13px;
     margin-top: 10px;
+      text-align: left;
+   
 
 }
 .open-text2{
    
     width: 85%;
-    margin-left: 5%;
+  
     color: rgb(0, 0, 0);
     height: 50%;
     font-size: 15px;
     margin-top: 0px;
+    text-align: left;
 
 }
 .quote{
@@ -138,11 +148,12 @@
 .quote1{
    
     height: 70%;
-    width: 80%;
+    width: 60%;
     margin: 5%;
     background-color: rgb(150,193,21);
     border-radius: 10px;
     display: flex;
+   
 }
 .quote-arrow{
 
@@ -159,20 +170,25 @@
 .quote-msg{
     
    
-    width: 75%;
-color: white;
+     width: 75%;
+     color: white;
      font-weight: 700;
      font-family: Heebo, sans-serif;
      font-size: 15px;
      line-height: 60px;
      font-style: normal;
+     text-align: center;
+     padding-left: 15px;
 }
 .fulldiv{
-    width: auto;
-    height: 80px;
+     width: auto;
+    height: 55px;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
    display: flex;
    background-color: rgb(14,43,92);
+   position: sticky;
+   top: 0px;
+   align-items: center;
 
 
 }
@@ -181,31 +197,26 @@ color: white;
     height: 100%;
     display: flex;
 } */
-.menu-icon{
-    width: 20%;
-    font-size: 40px;
-    padding-top: 10px;
-    
-}
 .logo1{
-width: 30%;
-height:90% ;
-padding-top: 2px;
+/* width: 30%;
+height:90%;
+padding-top: 2px;*/
 }
 .logo1>img{
-     height: 100%;
-    
-}
+     height: 97%;
+     margin-left: 50px;
+    }
 
 
 .child2{
 width: 60%;
 display: flex;
-margin-left: 100px;
+margin-left: 50px;
+justify-content: space-between;
 }
-.aboutus{
-    width:30% ;
-     margin-left: 0px;
+.home{
+    
+
      color: white;
      font-weight: 700;
      font-family: Heebo, sans-serif;
@@ -213,11 +224,58 @@ margin-left: 100px;
      line-height: 70px;
      font-style: normal;
      display: flex;
+}
+.home:hover{
+    color: yellow;
+}
+.aboutus{
+   
+
+     color: white;
+     font-weight: 700;
+     font-family: Heebo, sans-serif;
+     font-size: 14px;
+     line-height: 70px;
+     font-style: normal;
+     display: flex;
+}
+.aboutus:hover{
+    color: yellow;
+}
+.product{
+  
+    
+
+     color: white;
+     font-weight: 700;
+     font-family: Heebo, sans-serif;
+     font-size: 14px;
+     line-height: 70px;
+     font-style: normal;
+     display: flex;
+}
+.product:hover{
+    color: yellow;
+}
+.business{
+  
+    
+   
+     color: white;
+     font-weight: 700;
+     font-family: Heebo, sans-serif;
+     font-size: 14px;
+     line-height: 70px;
+     font-style: normal;
+     display: flex;
+}
+.business:hover{
+    color: yellow;
 }
 .contactus{
   
-     width:30% ;
-     margin-left: 5px;
+  
+
      color: white;
      font-weight: 700;
      font-family: Heebo, sans-serif;
@@ -225,10 +283,13 @@ margin-left: 100px;
      line-height: 70px;
      font-style: normal;
      display: flex;
+}
+.contactus:hover{
+    color: yellow;
 }
 .careers{
-  width:30% ;
-     margin-left: 5px;
+
+ 
      color: white;
      font-weight: 700;
      font-family: Heebo, sans-serif;
@@ -237,9 +298,13 @@ margin-left: 100px;
      font-style: normal;
      display: flex;
 }
+.careers:hover{
+    color: yellow;
+}
 .child3{
-width: 30%;
+width: 300px;
 display: flex;
+height: 30px;
 }
 .brand{
     margin-top: 20px;
@@ -282,21 +347,47 @@ display: flex;
 }
 .search{
 
-height: 50%;
-width: 200px;
-display: flex;
+width: 100%;
+ padding: 0px !important;
+     margin: 0px !important;
+  
+}
+.Search_bar{
+
+ display: flex;
+ width: 100%;
+ margin-left: 100px;
+
+}
+.Search_bar input{
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color:  rgb(14,43,92);;
 
 }
 .search1{
-    width:30% ;
-     margin-bottom: 40px;
+ 
      color: white;
      font-weight: 700;
      font-family: Heebo, sans-serif;
      font-size: 14px;
      line-height: 70px;
      font-style: normal;
-     margin-left: 150px;
+     padding: 0px;
+     margin: 0px;
+
+
+
+
+   
+}
+.search1 input{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+
+   
 }
 .search2{
    color: white;
@@ -305,22 +396,29 @@ display: flex;
      font-size: 23px;
      line-height: 80px;
      font-style: normal;
-     margin-left: 200px;
-     margin-bottom: 40px;
+    
 }
-.full-page{
-    width: 95%;
+.Search_icon{
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ font-size: 20px;
+ font-weight: 100;
+
+}
+/* .full-page{
+    width: auto;
     height: fit-content;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-left: 40px;
-}
+} */
 .first-image>img{
 width: 100%;
 height: 500px;
-padding-top: 20px;
 }
 .content{
-    width: 100%;
+    width: auto%;
  
     height: 500px;
     display: flex;
@@ -411,6 +509,14 @@ margin-left: 5%;
  margin-right: 60px;
  margin-top: 7%;
  margin-left: 7%;
+}
+.yt-image.yt-link{
+     height: 100%;
+    width: 100%;
+}
+.yt-link{
+    width: 100%;
+    height: 100%;
 }
 .yt-image>img{
     height: 100%;
@@ -577,28 +683,51 @@ margin-left: 2%;
     height: 100%;
 } */
 
-.vision{
-     width: 100%;
-   height: 500px;
-   display: flex;
-   margin-top: 50px;
-}
-.sub1-vision{
-    width: 100%;
-    height: 7%;
-     font-family: Barlow, sans-serif;
+.wall1{
+ 
+   width: 100%;
+   height: 10%;
+   font-family: Barlow, sans-serif;
 font-style: normal;
 font-weight: 700px;
 font-size: 25px;
 line-height: 32px;
 color: black;
 padding-top: 10px;
-padding-left: 10px;
+}
+.wall2{
+     
+   width: 100%;
+   height: 20%;
+font-family: Barlow, sans-serif;
+font-style: normal;
+font-weight: 700px;
+font-size: 25px;
+line-height: 32px;
+color: #0b2653;
+padding-top: 10px;
+}
+.vision{
+
+   width: auto;
+   height: 500px;
+   display: flex;
+   margin-top: 50px;
+}
+.sub1-vision{
+width: auto;
+height: 7%;
+font-family: Barlow, sans-serif;
+font-style: normal;
+font-weight: 700px;
+font-size: 25px;
+line-height: 32px;
+color: black;
+padding-top: 10px;
 }
 .sub2-vision{
-    width: 100%;
-   
-   font-family: Barlow, sans-serif;
+width: auto;
+font-family: Barlow, sans-serif;
 font-style: normal;
 font-weight: 700px;
 font-size: 22px;
@@ -609,29 +738,28 @@ text-align: left;
 padding-left: 10px;
 }
 .sub3-vision{
-    width: 90%;
-    
+    width: 90%; 
     height: 30%;
-          font-size: 20px;
-     background-color: white;
-     font-family:Heebo, sans-serif;
-     font-style: normal;
-     font-weight: 400;
-     line-height: 27px;
-     color: #51668a;
-     padding-left: 50px;
-      padding-top: 10px;
+    font-size: 20px;
+    background-color: white;
+    font-family:Heebo, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    color: #51668a;
+    padding-left: 50px;
+    padding-top: 10px;
       
     
 }
 .sub-vision1{
-    width: 40%;
+    width: 60%;
     height: 98%;
    margin-bottom: 10px;
 }
 .sub-vision2{
-    
-    width: 60%;
+
+    width: 40%;
     height: 98%;
 }
 .sub2-text1{
@@ -646,7 +774,16 @@ line-height: 32px;
 color: black;
 padding-top: 10px;
 }
-.sub2-text2{
+.sub-img{
+    width: 80%;
+    height: 80%;
+margin: 10% 10%;
+}
+.sub-img>img{
+    width: 100%;
+    height: 100%;
+}
+/* .sub2-text2{
    
     width: 100%;
     height: 15%;
@@ -657,6 +794,7 @@ font-size: 20px;
 line-height: 32px;
 color: #0b2653;
 padding-top: 10px;
+
 }
 .sub2-text3{
     
@@ -675,7 +813,7 @@ padding-top: 10px;
 .frame1>img{
     height: 100%;
     width: 100%;
-}
+} */
 .empty{
     width: 100%;
     height: 10px;
@@ -684,6 +822,7 @@ padding-top: 10px;
 .bg-img{
     width: 100%;
     height: 500px;
+    margin-top: 80px;
 }
 .backgroundimg{
     height: 100%;
@@ -693,6 +832,14 @@ padding-top: 10px;
 .backgroundimg>p{
     font-size: 20px;
     padding-top: 100px;font-weight: bolder;
+     color: white;
+     font-weight: 700;
+     font-family: Heebo, sans-serif;
+     font-size: 25px;
+     line-height: 70px;
+     font-style: normal;
+     padding-left: 50px;
+     padding-right: 20px;
 }
 .client{
     width: 90%;
@@ -758,40 +905,45 @@ padding-top: 10px;
     font-size: 40px;
 }
 .half-pg{
-     width: 95%;
-    height: 750px;
-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-left: 40px;
+     width: 85%;
+    height: 400px;
+    margin-left: 200px;
     margin-top: 50px;
-    background-color: rgba(128, 128, 128, 0.352);
-}
-.halg-pg1{
-    display: flex;
+   display: flex;
+   justify-content: space-between;
 }
 .sub-half1{
-    width: 40%;
-    height: 300px;
-    margin-top: 50px;
-    margin-left: 50px;
     
+    width: 24%;
 
+}
+.sub-half2{
+      
+    width: 24%;
+}
+.sub-half3{
+
+    width: 24%;
+}
+.sub-half4{
+
+    width: 24%;
 }
 .sub-half1>img{
     width: 100%;
-    height: 80%;
+    height: 100%;
 }
 .sub-half2>img{
      width: 100%;
-    height: 80%;
+    height: 100%;
 }
-.sub-half2{
-    
-    width: 40%;
-    height: 300px;
-    margin-top: 50px;
-    margin-left: 160px;
-     
-
+.sub-half3>img{
+    width: 100%;
+    height: 100%;
+}
+.sub-half4>img{
+     width: 100%;
+    height: 100%;
 }
 .sarvam{
     display: flex;
@@ -851,16 +1003,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
    color: gray;
    text-align: left;
 }
-.salesteam{
- color: green;
-    font-weight: bold;
-    background-color: black;
-    height: 18%;
-    padding-top: 5px;
-    font-size: 40px;
-    margin-top: 0px;
-    margin-bottom: 50px;
-}
+
 .menu-home{
     width: 150px;
    height: 100%;
@@ -888,4 +1031,64 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 .down{
     margin-top: 30px;
     margin-left: 5px;
+}
+.down:hover{
+    color: yellow;
+}
+.parent-sarvam{
+    background-color: #0b2653;
+    margin-top: 30px;
+    color: white;
+}
+.sub-half1 { /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.sub-half1 img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.sub-half1:hover img {
+  transform: scale(1.5);
+}
+.sub-half2 { /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.sub-half2 img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.sub-half2:hover img {
+  transform: scale(1.5);
+}
+.sub-half3 { /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.sub-half3 img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.sub-half3:hover img {
+  transform: scale(1.5);
+}
+.sub-half4 { /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.sub-half4 img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.sub-half4:hover img {
+  transform: scale(1.5);
 }

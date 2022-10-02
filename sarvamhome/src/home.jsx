@@ -16,16 +16,18 @@ import linked from "./images/linked.png"
 import whatsapp from "./images/whatsapp.png"
 import twitter from "./images/twitter.png"
 import safety from "./images/safety.png"
+import safety2 from "./images/safety2.png"
+import safety3 from "./images/safety3.png"
 import safety1 from "./images/safety1.jpg"
 import { AiOutlineDown } from "react-icons/ai";
 import { AiOutlinePhone } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import { AiOutlineFieldTime } from "react-icons/ai";
-import { AiFillRightCircle } from "react-icons/ai";
+// import { AiFillRightCircle } from "react-icons/ai";
 
 function Home(){
     return(
-        <div>
+        <div >
             <div className='address'>
  <div className="logo1">
                     <img src={logo} alt="" srcset="" />
@@ -50,18 +52,18 @@ function Home(){
                          <div className='open-icon'><AiOutlineFieldTime/></div>
                          <div className='open-text'>
                             <div className='open-text1'>Opening Hours:</div>
-                             <div className='open-text2'>Mon-fri:8am-7am</div>
+                             <div className='open-text2'>Mon-fri:8am-6pm</div>
                          </div>
                     </div>
                     <div className='quote'>
                         <div className='quote1'>
-                            <div className='quote-arrow'><AiFillRightCircle/></div>
+                            {/* <div className='quote-arrow'><AiFillRightCircle/></div> */}
                             <div className='quote-msg'>Get a Quote</div>
                         </div>
                     </div>
                   </div>
             </div>
-        <div className="fulldiv">
+        <div className="fulldiv" >
             {/* <div className="child1">
                 <div className="menu-icon">
                     <DrawerExample><AiOutlineMenu/></DrawerExample>
@@ -69,14 +71,15 @@ function Home(){
                
                 </div>
             </div> */}
-            <div className="child2">
+            <div className="child2" >
 
-                <div className="aboutus">HOME <div><AiOutlineDown className='down'/></div></div>
-               <div className="aboutus">ABOUT US <div><AiOutlineDown className='down'/></div></div>
-               <div className="contactus">PRODUCTS <div><AiOutlineDown className='down'/></div></div>
-               <div className="contactus">BUSINESS<div><AiOutlineDown className='down'/></div></div>
-                  <div className="contactus">CONTACT US  <div><AiOutlineDown className='down'/></div></div>
-                    <div className="careers">CAREERS  <div><AiOutlineDown className='down'/></div></div>
+                <div className="home">HOME </div>
+               <div className="aboutus">ABOUT US </div>
+               <div className="product">PRODUCTS <div><AiOutlineDown className='down'/></div></div>
+               <div className="business">BUSINESS<div><AiOutlineDown className='down'/></div></div>
+                <div className="careers">CAREERS</div>
+                  <div className="contactus">CONTACT US</div>
+                   
             </div>
             <div className="child3">
                   {/* <div className="brand">
@@ -87,9 +90,15 @@ function Home(){
                         <div className="sign1"><ImUser/></div>
                         <div className="sign2">SIGN IN</div>
                     </div> */}
-                     <div className="search">
-                         <div className="search1">SEARCH....</div>
-                        <div className='search2'><AiOutlineSearch/></div>
+                     
+
+
+                     <div className='Search_bar'>
+                       
+                       <input placeholder='Search...'></input>
+
+                         <div className='Search_icon'><AiOutlineSearch/></div>
+
                     </div>
             </div>
         </div>
@@ -100,11 +109,11 @@ function Home(){
             <div className='content'>
                 <div className='content-only'>
             <div className='box-para1'>
-            <p className='para1'>The word 'SARVAM' a Sanskrit word that stands for "Everything" or "Complete", 
+            <p className='para1'>The word <strong>'SARVAM'</strong> a Sanskrit word that stands for <strong>"Everything" or "Complete"</strong>, 
             represents to the totality of our strengths as a company - Infrastructure, Man power, Rich Experience, 
             Extensive Product Range, Quality and undying passion to remain ahead of the times. All backed by our 
             capable and experienced sales, Marketing, Back end Supporting, Service and Logistics team.</p>
-         <p className='para2'>SARVAM SAFETY Equipment (P) ltd is a Channel partner for reputed National and 
+         <p className='para2'><strong>SARVAM SAFETY Equipment (P) </strong>ltd is a Channel partner for reputed National and 
          International Life Saving Equipment Manufacturers, catering the safety needs of various Industrial 
          segments such as Automobiles, Chemical, Engineering, Pharmaceuticals, Refineries, Construction, power 
          sectors , Fire service, Government sectors, IT , Hotels and various Institutions.</p>
@@ -119,7 +128,9 @@ function Home(){
        
             <div className='sub-vision'>
                 <div  className='yt-image'>
-                    <img src={youtube} alt="" srcset="" />
+                  <a className='yt-link' href='https://www.youtube.com/watch?v=YoXTO60j91g'> 
+                  <img  className='yt-link' src={youtube} alt="" srcset=""  />
+                  </a> 
                 </div>
                 </div>
                 </div>
@@ -176,7 +187,13 @@ function Home(){
         </div> */}
 
         <div className='vision'>
-            <div className='sub-vision1'>
+           
+            <div className='sub-vision2'>
+              <div className='sub-img'>
+                 <img src={safety} alt="" srcset="" />
+              </div>
+            </div>
+             <div className='sub-vision1'>
                 <div className='sub1-vision'>
                     VISION AND MISION
                 </div>
@@ -195,31 +212,44 @@ function Home(){
                     catering to various segments and
                 </div>
             </div>
-            <div className='sub-vision2'>
-                <div className='sub2-text1'>
-                    WALL OF FAME
-                </div>
-                <div className='sub2-text2'>
-                           ALL ROADS THAT LEAD TO SUCCESS HAVE TO PASS THROUGH
-            HARDWORK BOULEVARD,AT SOME POINT OF TIME
-                </div>
-                <div className='sub2-text3'>
-                    <div className='frame1'>
- <img src={award2} alt="" srcset="" />
-                    </div>
-                    <div className='frame1'>
-  <img src={award3} alt="" srcset="" />
-                    </div>
-                    <div className='frame1'>
- <img src={award} alt="" srcset="" />
-                    </div>
-                    <div className='frame1'>
-<img src={award4} alt="" srcset="" />
-                    </div>
-                </div>
-            </div>
         </div>
         <div className='empty'></div>
+         {/* <div className='wall1'>
+                WALL OF FAME
+                </div>
+            <div className='wall2'>
+                ALL ROADS THAT LEAD TO SUCCESS HAVE TO PASS THROUGH
+            HARDWORK BOULEVARD,AT SOME POINT OF TIME
+            </div> */}
+              <div className='people_behind'>
+            <div className='people_text1'>WALL OF FAME</div>
+            <div className='people_text2'>  ALL ROADS THAT LEAD TO SUCCESS HAVE TO PASS THROUGH
+            HARDWORK BOULEVARD,AT SOME POINT OF TIME</div>
+        </div>
+          <div className='half-pg' >
+         
+                <div className='sub-half1'>
+                      <img src={award} alt="" srcset="" />
+                      
+                </div>
+               
+                <div className='sub-half2'>
+                     <img src={award2} alt="" srcset="" />
+                      {/* <div className='salesteam'>ADMIN TEAM</div> */}
+                </div>
+            
+            
+                <div className='sub-half3'>
+                     <img src={award3} alt="" srcset="" />
+                      {/* <div className='salesteam'>SERVICE TEAM</div> */}
+                </div>
+                <div className='sub-half4'>
+                     <img src={award4} alt="" srcset="" />
+                      {/* <div className='salesteam'>ADMIN TEAM</div> */}
+                
+            </div>
+           
+        </div>
         <div className='bg-img'>
              <div className='backgroundimg' style={{ backgroundImage:`url(${building})` }}>
 
@@ -250,27 +280,28 @@ function Home(){
             culture,creating the building blocks for success</div>
         </div>
         <div className='half-pg' >
-            <div className='halg-pg1'>
+         
                 <div className='sub-half1'>
                       <img src={safety} alt="" srcset="" />
-                       <div className='salesteam'>SALES TEAM</div>
+                      
                 </div>
                
                 <div className='sub-half2'>
-                     <img src={safety} alt="" srcset="" />
-                      <div className='salesteam'>ADMIN TEAM</div>
+                     <img src={safety3} alt="" srcset="" />
+                      {/* <div className='salesteam'>ADMIN TEAM</div> */}
                 </div>
-            </div>
-             <div className='halg-pg1'>
-                <div className='sub-half1'>
+            
+            
+                <div className='sub-half3'>
+                     <img src={safety2} alt="" srcset="" />
+                      {/* <div className='salesteam'>SERVICE TEAM</div> */}
+                </div>
+                <div className='sub-half4'>
                      <img src={safety1} alt="" srcset="" />
-                      <div className='salesteam'>SERVICE TEAM</div>
-                </div>
-                <div className='sub-half2'>
-                     <img src={safety1} alt="" srcset="" />
-                      <div className='salesteam'>ADMIN TEAM</div>
-                </div>
+                      {/* <div className='salesteam'>ADMIN TEAM</div> */}
+                
             </div>
+           
         </div>
        <div className='parent-sarvam'>
                     <div className='sarvam'>
@@ -329,11 +360,11 @@ function Home(){
                          </div>
 
                          </div>
-                    
-                </div>
-                <div className='hr'></div>
+                    <div className='hr'></div>
                 <p className='terms'>TERMS OFUSE COPYRIGHT PRICACY POLICT COMPLIANCE</p>
                 <div className='hr1'></div>
+                </div>
+                
         </div>
        
         </div>
